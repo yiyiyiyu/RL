@@ -1,4 +1,4 @@
-# 链接
+# 参考
 1. [入门](https://imzhanghao.com/2022/02/10/reinforcement-learning/)
 2. [动手学强化学习](https://hrl.boyuai.com/)
 3. [openAI](https://spinningup.readthedocs.io/zh-cn/latest/user/introduction.html)
@@ -18,7 +18,12 @@
 ![概念图](https://oss.imzhanghao.com/img/202202061348504.png)
 
 - `感知`
+智能体在某种程度上感知环境的状态，从而知道自己所处的现状。
+- `决策`
+智能体根据当前的状态计算出达到目标需要采取的动作的过程叫作决策
+- `奖励`
+环境根据状态和智能体采取的动作，产生一个标量信号作为奖励反馈。这个标量信号衡量智能体**这一轮**动作的好坏。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzUxMzQ1MjBdfQ==
+eyJoaXN0b3J5IjpbLTIxMzA0MDY1Ml19
 -->
